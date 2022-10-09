@@ -9,5 +9,7 @@ export default function Synonyms(props) {
         })}
       </ul>
     );
-  } else null;
+  } else {
+    return null;
+  }
 }
